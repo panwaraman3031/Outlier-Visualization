@@ -15,7 +15,7 @@ The main goals of this project are to demonstrate how to:
 ```python
 #access original dataset
 import pandas as pd
-d1=pd.read_csv('Javelin1.csv')
+d1=pd.read_csv('data.csv')
 
 #find % of missing values in data
 d1.isnull().sum()/(d1.shape[0])*100
