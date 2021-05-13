@@ -120,7 +120,7 @@ plt.show()
 ```
 
 
-![png](output_7_0.png)
+![](1.png)
 
 
 **Outlier Detection**
@@ -201,7 +201,7 @@ plt.show()
 ```
 
 
-![png](output_11_0.png)
+![](2.png)
 
 
 
@@ -213,7 +213,7 @@ sns.distplot(data['isoletionForest_scores'],color='red',label='if',hist_kws = {"
 ```
 
 
-![png](output_12_0.png)
+![](3.png)
 
 
 The distribution plot can be used to identify correct contamination value. Contamination parameter, decided by user, sets the percentage of points in data to be anomalous.If we change the contamination value, the isoletionForest_scores will change, but the distribution will stay the same. The algorithm will adjust the cutoff for outliers in the distribution plot.
@@ -266,7 +266,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![](4.png)
 
 
 In this plot,bigger the local outlier, bigger the circle around it.
