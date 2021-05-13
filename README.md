@@ -9,6 +9,8 @@ The main goals of this project are to demonstrate how to:
 2. Effectively visualize data that has large range of values
 3. Detect outliers through machine learning models and visualization packages
 
+![](Workflow.png)
+
 **Part 1: Cleaning the data**
 
 
